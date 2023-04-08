@@ -171,7 +171,7 @@ body {
 
 .main__content-text {
     font-weight: 400;
-    font-size: 12px;
+    font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.0025em;
     color: #73788C;
@@ -344,10 +344,11 @@ body {
     font-size: 24px;
     line-height: 32px;
     color: #1F2744;
-    margin: 16px 0 8px 0;
+    margin: 14px 0 8px 0;
 }
 
 .property-item-text {
+    display: block;
     font-weight: 400;
     font-size: 16px;
     color: #A6A6A6;
@@ -358,7 +359,7 @@ body {
     display: flex;
     align-items: center;
     gap: 40px;
-    margin-bottom: 24px;
+    margin-bottom: 22px;
 }
 
 .property-item-info-price {
@@ -444,6 +445,7 @@ body {
     grid-template-rows: 1fr 1fr;
     column-gap: 32px;
     row-gap: 32px;
+    justify-content: space-between;
 }
 
 .advantages__items-item {
@@ -600,7 +602,7 @@ body {
 
 .about__info-content-text {
     font-weight: 400;
-    font-size: 12px;
+    font-size: 16px;
     line-height: 26px;
     max-width: 505px;
     color: #73788C;
