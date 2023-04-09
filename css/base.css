@@ -53,14 +53,22 @@ body {
     box-sizing: border-box;
 }
 
-.base {
+.main {
     background-color: #F5F5F5;
 }
 
-.base__container {
+.container__bg {
+   background-color: #FEFEFF;
+}
+
+.base {
+    background-color: #F5F5F5;
     max-width: 1440px;
-    padding: 32px 124px;
     margin: 0 auto;
+}
+
+.base__container {
+    padding: 32px 124px;
     position: relative;
     z-index: 2;
 }
@@ -262,12 +270,12 @@ body {
 
 .property {
     background-color: #FEFEFF;
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
 .property__container {
-    max-width: 1440px;
-    padding: 0 122px;
-    margin: 0 auto;
+    padding: 1px 122px;
 }
 
 .property__link {
@@ -405,12 +413,12 @@ body {
 
 .advantages {
     background-color: #F5F5F5;
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
 .advantages__container {
-    max-width: 1440px;
     padding: 0 144px 100px 124px;
-    margin: 0 auto;
 }
 
 .advantages__link {
@@ -482,12 +490,13 @@ body {
 
 .about {
     background-color: #FEFEFF;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 1px 0;
 }
 
 .about__container {
-    max-width: 1440px;
     padding: 0 124px;
-    margin: 0 auto;
 }
 
 .about__info {
@@ -741,13 +750,13 @@ body {
 }
 
 .footer {
+    max-width: 1440px;
+    margin: 0 auto;
     background-color: #F5F5F5;
 }
 
 .footer__container {
-    max-width: 1440px;
     padding: 75px 124px 100px 124px;
-    margin: 0 auto;
     display: grid;
     grid-template-columns: 472px 538px 182px;
 }
