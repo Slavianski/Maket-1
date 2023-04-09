@@ -670,9 +670,10 @@ body {
 
 .about__items {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 376px 376px 376px;
     gap: 34px;
     margin-bottom: 120px;
+    justify-content: space-between;
 }
 
 .about__items-item {
