@@ -53,11 +53,11 @@ body {
     box-sizing: border-box;
 }
 
-.main {
+.base {
     background-color: #F5F5F5;
 }
 
-.main__container {
+.base__container {
     max-width: 1440px;
     padding: 32px 124px;
     margin: 0 auto;
@@ -142,7 +142,7 @@ body {
     color: #FFFFFF;
 }
 
-.main__content-link {
+.base__content-link {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -157,7 +157,7 @@ body {
     margin-bottom: 32px;
 }
 
-.main__content-title {
+.base__content-title {
     font-family: rubik, sans-serif;
     font-style: normal;
     font-weight: 600;
@@ -169,7 +169,7 @@ body {
     margin-bottom: 24px;
 }
 
-.main__content-text {
+.base__content-text {
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
@@ -179,7 +179,7 @@ body {
     margin-bottom: 64px;
 }
 
-.main__content-btn {
+.base__content-btn {
     width: 109px;
     height: 56px;
     background: transparent;
@@ -190,12 +190,12 @@ body {
     color: #A6A6A6;
 }
 
-.main__content-btn-active {
+.base__content-btn-active {
     background: #FEFEFF;
     color: #69B99D;
 }
 
-.main__content-search {
+.base__content-search {
     gap: 44px;
     text-align: center;
     padding: 32px;
@@ -206,27 +206,27 @@ body {
     display: none;
 }
 
-.main__content-search-active {
+.base__content-search-active {
     display: inline-flex;
     box-shadow: 35px 35px 65px rgba(146, 106, 120, 0.16);
 }
 
 
-.main__content-search-item {
+.base__content-search-item {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     position: relative;
 }
 
-.main__content-search label {
+.base__content-search label {
     font-weight: 400;
     font-size: 18px;
     line-height: 26px;
     color: #1F2744;
 }
 
-.main__content-search select {
+.base__content-search select {
     font-weight: 400;
     font-size: 18px;
     line-height: 26px;
@@ -239,7 +239,7 @@ body {
     cursor: pointer;
 }
 
-.main__content-search-btn {
+.base__content-search-btn {
     width: 153px;
     height: 60px;
     background: #69B99D;
@@ -249,11 +249,11 @@ body {
     color: #FFFFFF;
 }
 
-.main__content-search-btn:hover {
+.base__content-search-btn:hover {
     box-shadow: 0 0 65px rgba(105, 185, 157, 0.32);
 }
 
-.main__container-img {
+.base__container-img {
     position: absolute;
     bottom: 0;
     right: 0;
